@@ -1,0 +1,20 @@
+input[type='text'],
+textarea,
+select {
+    width: 80vh;
+    padding: 3px;
+    background-color: #f8f8f8;
+    color: #888;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #888;
+}
+
+input[type='text'] {
+    height: 30px;
+}
+
+select {
+    text-transform: capitalize;
+}

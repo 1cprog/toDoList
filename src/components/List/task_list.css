@@ -1,0 +1,83 @@
+p {
+    margin: 0;
+}
+
+.item {
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+
+.item:nth-child(odd) {
+    background-color: #cdcdcd;
+}
+
+.title {
+    float: left;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.high {
+    color: #dc3545;
+}
+
+.regular {
+    color: #28a745;
+}
+
+.low {
+    color: #007bff;
+}
+
+.expDate,
+.done {
+    margin-bottom: 5px;
+    font-size: 0.7em;
+}
+
+.expired {
+    color: #f55 !important;
+}
+
+.expDate {
+    float: left;
+}
+
+.done,
+.delete,
+.edit {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.edit {
+    margin: 5px 10px 0 0;
+    font-size: 0.7em;
+    cursor: pointer;
+}
+
+.edit:hover {
+    color: #007bff;
+    text-decoration: underline;
+}
+
+.delete {
+    margin: 0;
+    padding: 0;
+    /*position: relative;*/
+    /*top: -5px;*/
+    /*right: -600px;*/
+    width: 10px;
+    height: 10px;
+    transform: rotate(45deg);
+    font-size: 1.3em;
+    cursor: pointer;
+}
+
+.delete:hover {
+    color: #f00;
+}
